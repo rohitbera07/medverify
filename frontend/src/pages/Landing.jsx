@@ -42,7 +42,7 @@ export default function Landing() {
 
           {/* Heading */}
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mt-4 text-center">
-            Your Platform for <span className="text-purple-400">Tracking Medicine</span>
+          Cloud-Powered Platform for <span className="text-purple-400">Tracking Medicine</span>
           </h1>
 
           {/* Subheading */}

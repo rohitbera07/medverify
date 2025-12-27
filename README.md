@@ -1,6 +1,9 @@
 MedVerify
 
 MedVerify is a secure and intuitive platform designed for NGOs to efficiently manage and verify their medicine inventories. It allows organizations to track quantities, monitor expiry dates, and ensure that medicines reach the right people through a modern, easy-to-use dashboard.
+MedVerify uses AWS Lambda to handle backend operations in a scalable and cost-efficient way, ensuring that medicine data is processed securely without maintaining dedicated servers. For notification and communication needs, AWS SES (Simple Email Service) is integrated to send important alerts, such as reminders for medicines nearing their expiry dates, directly to NGOs via email.
+
+To efficiently manage expiry prioritization, the system applies a DSA-based Min Heap approach, where medicines are organized based on their expiry dates. This allows MedVerify to quickly identify medicines that are expiring soon and highlight them on the dashboard, reducing wastage and helping NGOs take timely action. The combination of cloud services and optimized data structures ensures both performance and reliability at scale.
 
 Features:
 
